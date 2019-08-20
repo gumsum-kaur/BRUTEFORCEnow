@@ -21,6 +21,6 @@ passwords = ['pass@word' , 'pass1' , '123@abc' , '123456']
 
 
 for password in passwords :
-	print(" enter ip address!")
+	
 	ip = input()
 	print(tryConnect( ip ,  user , password))
