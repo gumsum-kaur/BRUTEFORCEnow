@@ -39,7 +39,7 @@ elif x in thistuple2:
 	print('No. of digits : ' ,mytuple, '\n',  'Position   No.  : ' ,myindex)
 	exit()
 
-elif x
+
 
 mytuple = thistuple.count(x)
 myindex = thistuple.index(x)
