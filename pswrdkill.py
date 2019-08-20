@@ -4,7 +4,7 @@ thistuple1=('a' , 'b', 'c', 'd', 'e', 'f','g', 'h','i','j','k', 'l', 'm', 'n', '
 
 thistuple2= ('0123456789')
 
-thistuple3 = ("+-*/?!:( )[]}{<>=^%$|_;#@\&©®₹£€¥¡¿")
+
 
 #now run the commands********
 
@@ -39,18 +39,7 @@ elif x in thistuple2:
 	print('No. of digits : ' ,mytuple, '\n',  'Position   No.  : ' ,myindex)
 	exit()
 
-elif x in thistuple3 :
-	print('\n', " Opps ! You have entered some special characters !", '\n')
-	print("strike the ENTER key to get data !")
-	input()
-	mytuple = thistuple3.count(x)
-	myindex = thistuple3.index(x)
-	print('\n', thistuple3)
-	print('\n')
-	print('Identity :', x , '\n')
-	print('Special Character Repeat times: ' ,mytuple, '\n',  'Position   No.  : ' ,myindex)
-	exit()
-
+elif x
 
 mytuple = thistuple.count(x)
 myindex = thistuple.index(x)
